@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    box-shadow: 4px 5px 7px rgba(00, 00, 00, 0.2);
+
+}
+.main
+{
+    display: grid;
+    /* background-color: wheat; */
+    grid-template-rows:  760px  720px  1px 920px 1px 720px  170px;
+    row-gap: 45px;
+}
+.hor_line
+{
+    background-color: #607d8b42;
+    width: 70%;
+    justify-self: center;
+}
+/* .box
+{
+    border: 1px solid red;
+} */
+.nav
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -4px 10px 50px rgba(00, 00, 00, 0.2);
+}
+.menu
+{
+    /* background-color: cyan; */
+    width: 290px;
+    height: 45px;
+    letter-spacing: 4;
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    margin-right: 10px;
+
+}
+
+#name
+{
+    /* background-color: yellowgreen; */
+    letter-spacing: 4;
+    padding:12px 20px;
+    display: flex;
+    place-items: center;
+}
+
+.opt
+{
+    width: 310px;
+    /* background-color: blue; */
+    margin-right: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.option
+{
+    /* background-color: pink; */
+    text-decoration:none;
+    color: black;
+    padding: 12px 15px;
+}
+
+.banner
+{
+    background-image: url(../pic/hamburger.jpg);
+    background-position: center;
+    margin-bottom: -12px;
+}
+
+#banner_txt
+{
+    font-size: 37px;
+    letter-spacing: 4.5;
+    position: absolute;
+    top: 91.5%;
+    left: 23px;
+    color: rgba(00, 00, 00, 0.6);
+}
+
+.contact,.food1,.food2
+{
+    width: 70%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    align-self: center;
+    justify-self: center;
+    /* margin-top: 50px; */
+}
+
+.food1
+{
+    height: 88%;
+}
+
+h1
+{
+    font-size: 37px;
+    letter-spacing: 5;
+    font-weight: normal;
+    margin-bottom: 60px;
+
+}
+
+h3
+{   
+    margin-top: 25px;
+    color: #607d8b;
+
+}
+
+h2
+{
+    font-weight: normal;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 5;
+    margin-bottom: 25px;
+}
+
+.para
+{
+    font-size: large;
+    line-height: 1.48;
+    margin-bottom: 25px;
+
+}
+
+.para2
+{
+    font-size: large;
+    line-height: 1.48;
+    letter-spacing: 0.4;
+    color:rgba(00, 00, 00, 0.6) ;
+}
+
+.form_items
+{
+    padding: 16px 8px;
+    border: none;
+    border-bottom:1px solid gray;
+    background-color: none;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+#btn
+{
+    border: none;
+    padding: 8px 16px;
+    margin: 16px 0px;
+}
+
+.foot
+{
+    background-color:rgba(94, 91, 91, 0.1) ;
+    display: grid;
+    place-items: center;
+    margin-top: 60px;
+}
+
+.food1,.food2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.fd
+{
+    /* background-color: brown; */
+    width: 47.5%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+h4
+{
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: 5;
+    margin-bottom: 20px;
+}
+
+.para3
+{
+    color:rgba(00, 00, 00, 0.6) ;
+    margin-bottom: 50px;
+}
+
+.figure 
+{
+    background-size: cover;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.img1
+{
+    background-image: url(../pic/food1.jpg);
+}
+
+.img2
+{
+    background-image: url(../pic/food2.jpg);
+}
+
+#name:hover
+{
+    background-color: rgba(00, 00, 00, 0.2);
+}
+
+.option:hover
+{
+    background-color: rgba(00, 00, 00, 0.1);
+}
+
+#btn:hover
+{
+    background-color: rgba(00, 00, 00, 0.2);
+}
+
+a:hover:not(.option)
+{
+    color: rgb(79, 130, 79);
+}
